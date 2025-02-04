@@ -34,4 +34,3 @@ const VideoList = ({ videos, onSelect }) => {
 };
 
 export default VideoList;
-
