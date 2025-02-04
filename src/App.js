@@ -6,9 +6,9 @@ import './App.css';
 
 const App = () => {
   const [videos, setVideos] = useState([
-    { title: 'город', url: '/videos/город.mp4' },
-    { title: 'кино', url: '/videos/кино.mp4' },
-    { title: 'машина', url: '/videos/машина.mp4' },
+    { title: 'город', url: process.env.PUBLIC_URL + '/videos/город.mp4' },
+    { title: 'кино', url: process.env.PUBLIC_URL + '/videos/кино.mp4' },
+    { title: 'машина', url: process.env.PUBLIC_URL + '/videos/машина.mp4' },
     //... Добавляйте свои видео здесь
   ]);
   const [, setSelectedVideo] = useState(null);
