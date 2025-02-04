@@ -1,0 +1,29 @@
+/* src/component/VideoList.css */
+.video-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4a3b3b;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(237, 235, 235, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px auto; /* Добавляем отступы между контейнерами */
+  }
+  
+  .video-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: #dff1c2;
+  }
+  
