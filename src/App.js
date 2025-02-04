@@ -7,8 +7,8 @@ import './App.css';
 const App = () => {
   const [videos, setVideos] = useState([
     { title: 'город', url: 'https://www.youtube.com/watch?v=hSLmOjklqXs' },
-    { title: 'пегас', url: 'https://rutube.ru/video/private/c78c19622543df3d222b1854122eb3eb/?p=x9_PxkFHMNuqAvhSZ0ahxw' },
-    { title: 'машина', url: 'https://www.youtube.com/watch?v=example3' },
+    { title: 'пегас', url: 'https://web.telegram.org/a/#-1001883982658' },
+    { title: 'машина', url: 'https://www.youtube.com/watch?v=zF1QJJvKPDk' },
     //... Добавляйте свои видео здесь
   ]);
   const [, setSelectedVideo] = useState(null);
