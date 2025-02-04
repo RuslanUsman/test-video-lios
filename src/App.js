@@ -6,9 +6,9 @@ import './App.css';
 
 const App = () => {
   const [videos, setVideos] = useState([
-    { title: 'город', url: process.env.PUBLIC_URL + '/videos/город.mp4' },
-    { title: 'кино', url: process.env.PUBLIC_URL + '/videos/кино.mp4' },
-    { title: 'машина', url: process.env.PUBLIC_URL + '/videos/машина.mp4' },
+    { title: 'город', url: 'https://www.youtube.com/watch?v=hSLmOjklqXs' },
+    { title: 'пегас', url: 'https://rutube.ru/video/private/c78c19622543df3d222b1854122eb3eb/?p=x9_PxkFHMNuqAvhSZ0ahxw' },
+    { title: 'машина', url: 'https://www.youtube.com/watch?v=example3' },
     //... Добавляйте свои видео здесь
   ]);
   const [, setSelectedVideo] = useState(null);
