@@ -7,7 +7,7 @@ import './App.css';
 const App = () => {
   const [videos, setVideos] = useState([
     { title: 'город', url: 'https://www.youtube.com/watch?v=hSLmOjklqXs' },
-    { title: 'пегас', url: 'https://web.telegram.org/a/#-1001883982658' },
+    { title: 'пегас', url: process.env.PUBLIC_URL + '/videos/пегас.mp4' },
     { title: 'машина', url: 'https://www.youtube.com/watch?v=zF1QJJvKPDk' },
     //... Добавляйте свои видео здесь
   ]);
